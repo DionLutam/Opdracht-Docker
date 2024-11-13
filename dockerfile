@@ -5,5 +5,5 @@ RUN apt-get update && \
 WORKDIR /usr/share/nginx/html
 RUN git clone https://github.com/DionLutam/Opdracht-Docker.git
 RUN rm -rf /usr/share/nginx/html/*
-EXPOSE 80
+EXPOSE 90
 CMD ["nginx", "-g", "daemon off;"]
